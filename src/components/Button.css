@@ -1,0 +1,23 @@
+.custom-button {
+    background: linear-gradient(135deg, #4CAF50, #388E3C); /* Dégradé de fond */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    margin: 8px; /* Espace entre les boutons */
+    display: inline-block; /* Permet de mieux gérer l'espacement entre boutons */
+}
+
+.custom-button:hover {
+    background: linear-gradient(135deg, #45a049, #2e7d32); /* Couleur de dégradé au survol */
+    transform: translateY(-2px);
+}
+
+.custom-button:active {
+    transform: translateY(0);
+    background: linear-gradient(135deg, #388E3C, #2e7d32); /* Couleur de dégradé au clic */
+}

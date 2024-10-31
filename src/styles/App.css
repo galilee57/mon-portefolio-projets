@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px; /* Espace entre l'image et le reste du contenu */
+}
+

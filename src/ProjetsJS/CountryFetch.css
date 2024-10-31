@@ -1,0 +1,10 @@
+.flag {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+.country {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
