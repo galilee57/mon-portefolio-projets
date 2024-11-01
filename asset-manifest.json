@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mon-portefolio-projets/static/css/main.9e8134c3.css",
+    "main.js": "/mon-portefolio-projets/static/js/main.fd99569b.js",
+    "static/media/projectExercices.jpg": "/mon-portefolio-projets/static/media/projectExercices.443165cf97aa3ba88bca.jpg",
+    "static/media/projectProgram.jpg": "/mon-portefolio-projets/static/media/projectProgram.a70e640536d3037c506d.jpg",
+    "static/media/projectFlags.jpg": "/mon-portefolio-projets/static/media/projectFlags.499dff251f7463a1a4d5.jpg",
+    "static/media/projectAnimate.jpg": "/mon-portefolio-projets/static/media/projectAnimate.368fc57e164fed1bee03.jpg",
+    "static/media/projectFinance.jpg": "/mon-portefolio-projets/static/media/projectFinance.7f52e291efa739d72e46.jpg",
+    "static/media/projectMusculation.jpg": "/mon-portefolio-projets/static/media/projectMusculation.53203f4689849b9541b1.jpg",
+    "static/media/projectImage.jpg": "/mon-portefolio-projets/static/media/projectImage.50c1e8efe78497f59fae.jpg",
+    "static/media/projectJS.jpg": "/mon-portefolio-projets/static/media/projectJS.405ab1f2a23a1dffd4b7.jpg",
+    "static/media/projectCooking.jpg": "/mon-portefolio-projets/static/media/projectCooking.c1870053edb610efed3d.jpg",
+    "static/media/banner.jpg": "/mon-portefolio-projets/static/media/banner.3632c917f9a404b27cf0.jpg",
+    "index.html": "/mon-portefolio-projets/index.html",
+    "main.9e8134c3.css.map": "/mon-portefolio-projets/static/css/main.9e8134c3.css.map",
+    "main.fd99569b.js.map": "/mon-portefolio-projets/static/js/main.fd99569b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e8134c3.css",
+    "static/js/main.fd99569b.js"
+  ]
+}
