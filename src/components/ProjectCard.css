@@ -37,8 +37,13 @@
     text-align: center;
 }
 
-.project-card-title {
+.project-card-thema {
     font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.project-card-title {
+    font-size: 1em;
     margin: 0 0 10px;
 }
 

@@ -1,0 +1,52 @@
+[
+    {
+      "theme": "Musculation",
+      "title": "Projets",
+      "description": "Une application pour suivre votre programme de musculation.",
+      "image": "projectMusculation.jpg",
+      "link": "/musculation"
+    },
+    {
+      "theme": "Finance",
+      "title": "Modèle de prédiction",
+      "description": "Prédictions basées sur un modèle ARIMA",
+      "image": "projectFinance.jpg",
+      "link": "/finance"
+    },
+    {
+      "theme": "JavaScript",
+      "title": "Animation simple",
+      "description": "Une animation avec Animate.js",
+      "image": "projectJS.jpg",
+      "link": "/projetsjs"
+    },
+    {
+        "theme": "JavaScript",
+        "title": "Cooking cards",
+        "description": "Affichage avec des cartes et tri par mots",
+        "image": "projectCooking.jpg",
+        "link": "/projetsjs"
+      },
+      {
+        "theme": "JavaScript",
+        "title": "Flags",
+        "description": "Affichage des drapeaux à partir d'une REST API",
+        "image": "projectFlags.jpg",
+        "link": "/projetsjs"
+      },
+    {
+        "theme": "Musculation",
+        "title": "Exercices",
+        "description": "Des animations bésées sur les exercices de muscu",
+        "image": "projectExercices.jpg",
+        "link": "/projetsjs"
+      },
+      {
+        "theme": "Musculation",
+        "title": "Programmes",
+        "description": "Affichage des progrès et analyse par IA",
+        "image": "projectProgram.jpg",
+        "link": "/musculation"
+      }
+  ]
+  
