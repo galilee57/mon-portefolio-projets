@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmon_portefolio_projets=self.webpackChunkmon_portefolio_projets||[]).push([[983],{983:(e,o,p)=>{e.exports=p.p+"static/media/projectExercices.443165cf97aa3ba88bca.jpg"}}]);
