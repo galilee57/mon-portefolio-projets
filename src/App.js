@@ -1,7 +1,7 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import './styles/App.css'
-import Home from './Home/Home';
+import Home from './Home';
 import Musculation from './Projets_Musculation/Musculation';
 import Finance from './Projets_Finance/Finance';
 import ProjetsJS from './ProjetsJS/ProjetsJS';
@@ -11,7 +11,7 @@ import bannerImage from './assets/banner.jpg';
 
 const App = () => {
   return (
-    <BrowserRouter basename="/website_react.github.io">
+    <HashRouter >
       <div>
         <img src={bannerImage} alt="Bandeau du portfolio" className="banner-image" />
         <Routes>
@@ -21,7 +21,7 @@ const App = () => {
           <Route path="/projetsjs/" element={<ProjetsJS />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

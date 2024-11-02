@@ -1,9 +1,9 @@
 // src/Home/Home.js
 import React from 'react';
-import ProjectCard from '../components/ProjectCard';
+import ProjectCard from './components/ProjectCard';
 
 // Charger toutes les images du dossier assets/projects
-const images = require.context('../assets/projects', false, /\.(jpg|png|jpeg|gif)$/);
+const images = require.context('./assets/projects', false, /\.(jpg|png|jpeg|gif)$/);
 
 const Home = () => {
   const projects = [
