@@ -1,52 +1,73 @@
 [
-    {
+  {
+      "path": "/",
+      "importPath": "./Home",
+      "title": "Accueil",
+      "description": "Bienvenue sur le portfolio."
+    },  
+  {
+      "path": "/musculation",
+      "importPath": "./Projets_Musculation/Musculation",
       "theme": "Musculation",
       "title": "Projets",
       "description": "Une application pour suivre votre programme de musculation.",
-      "image": "projectMusculation.jpg",
-      "link": "/musculation"
+      "image": "projectMusculation.jpg"
     },
     {
+      "path": "/finance",
+      "importPath": "./Projets_Finance/Finance",
       "theme": "Finance",
       "title": "Modèle de prédiction",
       "description": "Prédictions basées sur un modèle ARIMA",
-      "image": "projectFinance.jpg",
-      "link": "/finance"
+      "image": "projectFinance.jpg"
     },
     {
+      "path": "/animatejs",
+      "importPath": "./ProjetsJS/AnimateJS",
       "theme": "JavaScript",
       "title": "Animation simple",
       "description": "Une animation avec Animate.js",
-      "image": "projectJS.jpg",
-      "link": "/projetsjs"
+      "image": "projectJS.jpg"
     },
     {
+        "path": "/cookingjs",
+        "importPath": "./ProjetsJS/CookingJS",
         "theme": "JavaScript",
         "title": "Cooking cards",
         "description": "Affichage avec des cartes et tri par mots",
-        "image": "projectCooking.jpg",
-        "link": "/projetsjs"
+        "image": "projectCooking.jpg"
       },
       {
+        "path": "/flags",
+        "importPath": "./ProjetsJS/CountryFetch",
         "theme": "JavaScript",
         "title": "Flags",
         "description": "Affichage des drapeaux à partir d'une REST API",
-        "image": "projectFlags.jpg",
-        "link": "/projetsjs"
+        "image": "projectFlags.jpg"
       },
     {
+        "path": "/exercices",
+        "importPath": "./Projets_Musculation/Exercices", 
         "theme": "Musculation",
         "title": "Exercices",
         "description": "Des animations bésées sur les exercices de muscu",
-        "image": "projectExercices.jpg",
-        "link": "/projetsjs"
+        "image": "projectExercices.jpg"
       },
       {
+        "path": "/program",
+        "importPath": "./Projets_Musculation/Programmes",
         "theme": "Musculation",
         "title": "Programmes",
         "description": "Affichage des progrès et analyse par IA",
-        "image": "projectProgram.jpg",
-        "link": "/musculation"
+        "image": "projectProgram.jpg"
+      },
+      {
+        "path": "/covidsimulation",
+        "importPath": "./ProjetsJS/SimulationCovidJS.js",
+        "theme": "JavaScript",
+        "title": "Simulation COVID",
+        "description": "Simulation de la dynamique de propagation",
+        "image": "projectImage.jpg"
       }
   ]
   

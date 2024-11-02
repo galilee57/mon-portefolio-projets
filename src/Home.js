@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ProjectCard from './components/ProjectCard';
 import projectsData from './projects.json';
-import './styles/Home.css'
+import './styles/Home.css';
 
 // Charger toutes les images du dossier assets/projects
 const images = require.context('./assets/projects', false, /\.(jpg|png|jpeg|gif)$/);
@@ -11,8 +11,11 @@ const Home = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-    // Ajouter les images correspondantes aux données JSON
-    const projectsWithImages = projectsData.map(project => ({
+    // Filtrer les projets (par exemple, exclure la route "/")
+    const projectItems = projectsData.filter(project => project.path !== "/");
+
+    // Associer les images aux projets en fonction du nom du fichier
+    const projectsWithImages = projectItems.map(project => ({
       ...project,
       image: images(`./${project.image}`)
     }));
@@ -38,7 +41,6 @@ const Home = () => {
 
   return (
     <div className="home-page">
-      
       {/* Champ de recherche */}
       <input
         type="text"
@@ -56,7 +58,7 @@ const Home = () => {
             title={project.title}
             description={project.description}
             image={project.image}
-            link={project.link}
+            link={project.path}  // Utiliser path pour le lien de navigation
           />
         ))}
       </div>
