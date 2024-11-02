@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import ProjectCard from './components/ProjectCard';
 import projectsData from './projects.json';
+import './styles/Home.css'
 
 // Charger toutes les images du dossier assets/projects
 const images = require.context('./assets/projects', false, /\.(jpg|png|jpeg|gif)$/);
 
 const Home = () => {
   const [projects, setProjects] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     // Ajouter les images correspondantes aux données JSON
@@ -22,11 +24,32 @@ const Home = () => {
     setProjects(projectsWithImages);
   }, []);
 
+  // Fonction pour gérer la saisie dans le champ de recherche
+  const handleSearchChange = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  // Filtrer les projets en fonction du terme de recherche
+  const filteredProjects = projects.filter(project =>
+    project.theme.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    project.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    project.description.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <div className="home-page">
-      <h1>MON PORTEFOLIO DE PROJETS</h1>
+      
+      {/* Champ de recherche */}
+      <input
+        type="text"
+        placeholder="Rechercher des projets..."
+        value={searchTerm}
+        onChange={handleSearchChange}
+        className="search-input"
+      />
+
       <div className="project-cards-container">
-        {projects.map((project, index) => (
+        {filteredProjects.map((project, index) => (
           <ProjectCard
             key={index}
             theme={project.theme}

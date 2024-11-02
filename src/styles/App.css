@@ -13,15 +13,42 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-header {
+  position: relative;
+  background-image: url('../assets/banner.jpg'); /* Chemin vers votre image */
+  background-size: cover;
+  background-position: center;
+  height: 80px; /* Hauteur du bandeau */
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.app-header h1 {
+  position: absolute;
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour améliorer la lisibilité */
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.home-button {
+  position: absolute;
+  left: 20px; /* Distance depuis le côté gauche de l'écran */
+  padding: 8px 16px;
+  background-color: #4A90E2;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.home-button:hover {
+  background-color: #c42a3c;
 }
 
 .App-link {
