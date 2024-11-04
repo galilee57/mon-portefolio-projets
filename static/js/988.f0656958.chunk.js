@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmon_portefolio_projets=self.webpackChunkmon_portefolio_projets||[]).push([[988],{4988:(e,o,p)=>{e.exports=p.p+"static/media/banner 2.554afdde539586a4a4af.jpg"}}]);

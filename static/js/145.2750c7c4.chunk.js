@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmon_portefolio_projets=self.webpackChunkmon_portefolio_projets||[]).push([[145,88],{9145:(t,e,o)=>{o.r(e),o.d(e,{default:()=>r});o(5043);var s=o(3216),n=(o(9088),o(579));const r=t=>{let{text:e,to:o}=t;const r=(0,s.Zp)();return(0,n.jsx)("button",{className:"custom-button",onClick:()=>{r(o,{relative:"path"})},children:e})}},9088:(t,e,o)=>{o.r(e),o.d(e,{default:()=>s});const s={}}}]);
+//# sourceMappingURL=145.2750c7c4.chunk.js.map

@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmon_portefolio_projets=self.webpackChunkmon_portefolio_projets||[]).push([[12],{12:(e,o,n)=>{n.r(o),n.d(o,{default:()=>r});n(43);var i=n(579);const r=function(){return(0,i.jsx)("div",{children:(0,i.jsx)("h2",{children:"Simulation de la dynamique du COVID. Modifiez les \xe9l\xe9ments pour personnaliser votre simulation."})})}}}]);
-//# sourceMappingURL=12.1f51bbce.chunk.js.map

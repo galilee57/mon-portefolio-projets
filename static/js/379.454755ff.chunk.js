@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmon_portefolio_projets=self.webpackChunkmon_portefolio_projets||[]).push([[379],{379:(e,o,p)=>{e.exports=p.p+"static/media/projectFlags.499dff251f7463a1a4d5.jpg"}}]);

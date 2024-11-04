@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmon_portefolio_projets=self.webpackChunkmon_portefolio_projets||[]).push([[762],{5762:(e,o,p)=>{e.exports=p.p+"static/media/projectTalentChance.ea8d3657fa4bfbec2371.jpg"}}]);

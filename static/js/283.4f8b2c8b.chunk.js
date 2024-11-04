@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmon_portefolio_projets=self.webpackChunkmon_portefolio_projets||[]).push([[283],{7283:(e,o,n)=>{n.r(o),n.d(o,{default:()=>t});n(5043);var r=n(579);const t=function(){return(0,r.jsx)("div",{children:(0,r.jsx)("h2",{children:"Un exemple d'affichage de cartes vu en formation."})})}}}]);
+//# sourceMappingURL=283.4f8b2c8b.chunk.js.map
