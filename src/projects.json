@@ -30,12 +30,12 @@
       "image": "projectJS.jpg"
     },
     {
-        "path": "/cookingjs",
-        "importPath": "./ProjetsJS/CookingJS",
+        "path": "/simulatorsjs",
+        "importPath": "./ProjetsJS/SimulatorsJS.js",
         "theme": "JavaScript",
-        "title": "Cooking cards",
-        "description": "Affichage avec des cartes et tri par mots",
-        "image": "projectCooking.jpg"
+        "title": "Simulateurs",
+        "description": "Différents simulateurs créés",
+        "image": "projectSimulators.jpg"
       },
       {
         "path": "/flags",
@@ -50,7 +50,7 @@
         "importPath": "./Projets_Musculation/Exercices", 
         "theme": "Musculation",
         "title": "Exercices",
-        "description": "Des animations bésées sur les exercices de muscu",
+        "description": "Des animations basées sur les exercices de muscu",
         "image": "projectExercices.jpg"
       },
       {
@@ -68,6 +68,22 @@
         "title": "Simulation COVID",
         "description": "Simulation de la dynamique de propagation",
         "image": "projectImage.jpg"
+      },
+      {
+        "path": "/talentvchance",
+        "importPath": "./ProjetsJS/TalentChance.js",
+        "theme": "JavaScript",
+        "title": "Modèle Talent versus Chance",
+        "description": "Qui de la chance ou du talent influence la réussite ?",
+        "image": "projectTalentChance.jpg"
+      },
+      {
+        "path": "/cleaningrobot",
+        "importPath": "./Projets_AI/CleaningRobot.js",
+        "theme": "Artificial Intelligence",
+        "title": "Cleaning Robot",
+        "description": "Transcription du programme de robot qui se déplace dans une pièce pour nettoyer.",
+        "image": "projectCleaningRobot.jpg"
       }
   ]
   
