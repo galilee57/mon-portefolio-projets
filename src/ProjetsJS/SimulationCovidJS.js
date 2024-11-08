@@ -23,11 +23,12 @@ const SimulationComponent = () => {
   const decedes = useRef([]);
 
   useEffect(() => {
+    let canvas;
     const sketch = (p) => {
       let population = [];
       const infectionRadius = 10;
       const speed = 2;
-
+  
       class Person {
         constructor() {
           this.x = p.random(p.width / 2);
@@ -120,7 +121,7 @@ const SimulationComponent = () => {
       };
 
       p.setup = () => {
-        p.createCanvas(1200, 600);
+        p.createCanvas(1000, 500);
         resetSimulation();
       };
 
@@ -169,9 +170,16 @@ const SimulationComponent = () => {
       };
     };
 
-    const canvas = new p5(sketch, sketchRef.current);
+    canvas = new p5(sketch, sketchRef.current);
     return () => {
-      canvas.remove();
+      if (canvas) {
+        canvas.remove();
+        canvas = null; // Nettoyer la référence
+      }
+      susceptibles.current = [];
+      infectes.current = [];
+      retablis.current = [];
+      decedes.current = [];
     };
   }, [populationSize, infectionRate, recoveryTime, mortalityRate, capacityThreshold, running]);
 

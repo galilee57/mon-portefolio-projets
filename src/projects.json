@@ -71,7 +71,7 @@
       },
       {
         "path": "/talentvchance",
-        "importPath": "./ProjetsJS/TalentChance.js",
+        "importPath": "./ProjetsJS/TalentvLuck.js",
         "theme": "JavaScript",
         "title": "Modèle Talent versus Chance",
         "description": "Qui de la chance ou du talent influence la réussite ?",

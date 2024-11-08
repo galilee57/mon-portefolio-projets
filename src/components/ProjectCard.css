@@ -37,8 +37,9 @@
 }
 
 .project-card-thema {
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin: 0 0 20px;
+    color:#4627b7;
 }
 
 .project-card-title {
@@ -47,7 +48,7 @@
 }
 
 .project-card-description {
-    font-size: 1em;
+    font-size: 0.9em;
     color: #555;
     margin: 0 0 12px;
 }
