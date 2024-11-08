@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/375.e3ea3c2c.chunk.css","mappings":"AAAA,iBAGI,kBAAmB,CAFnB,YAAa,CACb,4BAEF","sources":["styles/TalentvLuck.css"],"sourcesContent":[".chart-container {\n    display: flex;\n    justify-content: space-around;\n    align-items: center;\n  }\n  \n \n  "],"names":[],"sourceRoot":""}
